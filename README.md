@@ -49,6 +49,7 @@ creative-fatigue-monitor/
     ├── FIELD_MAPPING.md           # How to adapt to your Funnel.io export
     ├── DEMO_SCRIPT.md             # 2-minute hackathon demo walkthrough
     ├── HACKATHON_SUBMISSION.md    # AI Track 2026 form answers (paste-ready)
+    ├── ORIGINAL_PROMPT.md         # Verbatim design prompt + requirements audit trail
     └── GEMINI_HANDOFF.md          # Context brief for Gemini to continue docs
 ```
 
