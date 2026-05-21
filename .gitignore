@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Credentials — NEVER commit
+service_account.json
+*.pem
+*.key
+.env
+.env.local
+
+# Data — keep client data out of version control
+*.csv
+!test_data.csv          # but DO commit the validation dataset
+fatigued_ads.csv
+data/
+exports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
